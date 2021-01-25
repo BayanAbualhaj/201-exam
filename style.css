@@ -1,0 +1,40 @@
+div {
+    width: 50%;
+    display: inline-block;
+}
+
+#table {
+    float: right;
+}
+
+header p{
+    padding: 2%;
+    font-size: 250%;
+    font-weight: bolder;
+    text-align: center;
+    background-color: #FFF9FF;
+
+}
+
+#wish-table ,#table p,form{
+    width: 100%;
+    margin-right: 20%;
+    border-style: solid ;
+    border-color: black;
+    background-color:#253043;
+    color: bisque;    
+}
+
+th ,td {
+    border: teal;
+    border-style: solid;
+
+}
+
+body{
+
+    background-image: url(https://designshack.net/wp-content/uploads/Simple-Flower-Pattern-Background.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
