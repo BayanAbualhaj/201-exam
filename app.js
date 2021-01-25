@@ -73,7 +73,7 @@ function wishlistData(event) {
     var name=event.target.itemName.value;
     var category=event.target.category.value;
     var quantity=event.target.quantity.value;
-    console.log(`name. ${name}  category ${category} quantity ${quantity}`);
+    //console.log(`name. ${name}  category ${category} quantity ${quantity}`);
 
     var newItem= new Wishlist(name,category,quantity);
 
@@ -121,6 +121,7 @@ function deleteButton(event) {
         
     }
     localStorage.setItem('wishlist',JSON.stringify(arrayOfwishlist));
+    total();
 }
 
 function checkLS() {
